@@ -8,10 +8,8 @@ body {
     background: #282a36;                     
 }
 
-.Contact {
+.links {
     background: rgba(0, 0, 0, 0.1);
-/*display: flex;
-    justify-content: space-between;*/
     padding: 32px;  
     text-align: center;
 }
@@ -24,39 +22,66 @@ header div a  {
     line-height: 26px;
     margin: 30px;
 }
-
+ 
 header div a:hover{
     color:#50fa7b;
     transition: color 400ms;
 }
 
 footer {
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 38px;
     width: 100%;
     text-align: center;
 }
 
-.CompanyLogo {
-    text-align: left;
-    padding: 60px;
+#EmpresaIMG {
+    text-align: center;
+    padding: 30px;
 }
 
-.CompanyLogo img {
-    border-radius: 50%;   
+#EmpresaIMG img {
+    border-radius: 50%;
 }
 
-.CompanyLogo h2 {
-    position: fixed;
-    display: inline-block;
-    color: white;
+#EmpresaIMG h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: left;
+    color: white;
     text-decoration: none;
-    padding-left: 40px;
-    padding-top: 18px;
+    font-size: 17px;
+    line-height: 38px;
+    margin: 40px;
+}
+
+
+#Tecnologias {
+    text-align: center;
+}
+
+#Tecnologias ul {
+    line-height: normal;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 17px;
+    line-height: 38px;
+    margin: 10px;
+}
+
+#Tecnologias img {
+    padding: 15px;
+    height: 80px;
+}
+
+#Tecnologias h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 38px;
+    margin: 10px;
 }
 
 #SocialMedias img {
