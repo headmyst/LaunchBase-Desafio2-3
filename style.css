@@ -1,6 +1,7 @@
 :root {
     --color-white: #ffffff;
     --color-green: #50fa7b;
+    --color-purple: #7159c1;
 }
 * {
     margin: 0;
@@ -40,6 +41,8 @@ footer {
     text-align: center;
 }
 
+/*COMPANY*/
+
 #EmpresaIMG {
     text-align: center;
     padding: 30px;
@@ -58,6 +61,7 @@ footer {
     margin: 40px;
 }
 
+/*TECNOLOGIES*/
 
 #Tecnologias {
     text-align: center;
@@ -87,6 +91,44 @@ footer {
     line-height: 38px;
     margin: 10px;
 }
+
+/*BLOG-CARDS*/
+
+.blog {
+    color: var(--color-white);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.card {
+    background-color: var(--color-purple);
+}
+
+.card_image img {
+    width: 100%;
+}
+
+.card_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card_time {
+    text-align: right;
+}
+
+
+/*SOCIAL MEDIAS*/
 
 #SocialMedias img {
     height: 32px;
