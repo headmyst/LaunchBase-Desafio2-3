@@ -83,7 +83,7 @@ header div a:hover{
 }
 
 .cards {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -94,13 +94,28 @@ header div a:hover{
     background-color: var(--color-purple);
 }
 
+.card:hover {
+    -moz-box-shadow: 0 0 1px var(--color-purple);
+    -webkit-box-shadow: 0 0 10px var(--color-purple);
+     box-shadow: 0 0 10px var(--color-purple);
+}
+
 .card_image img {
     width: 100%;
+}
+
+.card_description {
+    font-size: 15px;
+    padding-bottom: 8px;
+    text-align: center;
 }
 
 .card_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .card_time {
