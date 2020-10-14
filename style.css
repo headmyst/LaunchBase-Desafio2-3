@@ -120,7 +120,7 @@ header div a:hover{
 .card_time {
     filter: brightness(90%);
     border-radius: 15px;
-    text-align: center;
+    text-align: right;
 }
 
 /*SOCIAL MEDIAS*/
