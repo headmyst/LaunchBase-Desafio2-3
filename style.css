@@ -178,9 +178,9 @@ footer {
 }
 
 #SocialMedias img:hover {     
-    -moz-box-shadow: 0 0 1px var(--color-green);
-    -webkit-box-shadow: 0 0 10px var(--color-green);
-    box-shadow: 0 0 10px var(--color-green);
+    -moz-box-shadow: 0 0 1px var(--color-purple);
+    -webkit-box-shadow: 0 0 10px var(--color-purple);
+    box-shadow: 0 0 10px var(--color-purple);
     filter: blur(0.1px);
     border-radius: 50%
 }
